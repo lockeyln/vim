@@ -2,32 +2,16 @@
 
 ![screenshot](/screenshots/cch.png)
 
-### 方法一：手動安裝
 
 先備份原本的 `.vimrc`、`.gvimrc` 以及 `.vim` 目錄，然後進行以下程序：
 
     $ cd ~
-    $ git clone https://github.com/kaochenlong/cch.git .vim
+    $ git clone https://github.com/lockeyln/vim.git
     $ ln -s .vim/vimrc .vimrc
     $ ln -s .vim/gvimrc .gvimrc
 
 最後開啟 Vim，並執行 `:PlugInstall` 指令安裝外掛程式。
 
-### 方法二：快速安裝
-
-如果你信得過我的話，你可以在終端機環境直接貼上並執行以下這段程式：
-
-1. 使用 `curl`：
-
-```
-$ sh <(curl -L https://github.com/kaochenlong/cch/raw/master/utils/install.sh)
-```
-
-2. 使用 `wget`： 
-
-```
-$ sh <(wget --no-check-certificate https://github.com/kaochenlong/cch/raw/master/utils/install.sh -O -)
-```
 
 ## 快捷鍵設定
 

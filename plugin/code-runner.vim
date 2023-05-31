@@ -11,3 +11,10 @@ if executable("node")
 else
   autocmd BufRead,BufNewFile *.js nnoremap <F5> :echo "you need to install Node.js first!"<Enter>
 endif
+
+" Python
+if executable("python")
+  autocmd BufRead,BufNewFile *.py nnoremap <silent> <F5> :% w !python<Enter>
+else
+  autocmd BufRead,BufNewFile *.py nnoremap <F5> :echo "you need to install Pyton first!"<Enter>
+endif

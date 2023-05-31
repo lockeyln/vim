@@ -37,17 +37,6 @@ inoremap <C-d> <Delete>
 
 
 "python相关设置
-map <F5> :call RunPython()<CR>
-func! RunPython()
-	exec "w"
-	if &filetype=='python'
-	    set splitbelow
-	    :sp
-	    :term python3.9 %
-		" exec "!time python3.9 %"
-	endif
-endfunc
-
 " 自动创建python文件头
 autocmd BufNewFile *.py,*.tex exec ":call SetTitle()"
 func! SetTitle()

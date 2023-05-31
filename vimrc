@@ -40,6 +40,7 @@ set noswapfile
 set hidden
 set nobomb            " no BOM(Byte Order Mark)
 set mouse=a
+set virtualedit=block,onemore   " 允许光标出现在最后一个字符的后面
 
 "--------------
 " Filetype and Encoding

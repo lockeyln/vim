@@ -2,6 +2,7 @@
 " appearance
 "--------------
 set number             " show line number
+set relativenumber 
 set noshowmode         " disable mode(because of Vim-Airline)
 set showcmd            " display command
 set nolist             " do not display invisible characters
@@ -27,9 +28,11 @@ set scrolloff=3
 "--------------
 " Tab and space
 "--------------
-set softtabstop=2
-set shiftwidth=2
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
 set expandtab
+set smarttab
 
 "--------------
 " ColorScheme

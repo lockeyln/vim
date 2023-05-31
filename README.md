@@ -6,7 +6,7 @@
 先備份原本的 `.vimrc`、`.gvimrc` 以及 `.vim` 目錄，然後進行以下程序：
 
     $ cd ~
-    $ git clone https://github.com/lockeyln/vim.git
+    $ git clone https://github.com/lockeyln/vim.git ~/.vim
     $ ln -s .vim/vimrc .vimrc
     $ ln -s .vim/gvimrc .gvimrc
 

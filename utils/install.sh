@@ -48,7 +48,7 @@ then
 fi
 
 # check if Git is installed
-hash git >/dev/null && /usr/bin/env git clone https://github.com/kaochenlong/cch.git ~/.vim || {
+hash git >/dev/null && /usr/bin/env git clone https://github.com/lockeyln/vim.git ~/.vim || {
   echo "Sorry, Git is not installed yet!"
   exit
 }
@@ -63,7 +63,7 @@ vim +'PlugInstall --sync' +qa
 
 echo ""
 echo "\033[0;34mNice! Seems everything is going well.\033[0m"
-echo "\033[0;34mGithub Repository: https://github.com/kaochenlong/cch\033[0m"
+echo "\033[0;34mGithub Repository: https://github.com/lockeyln/vim\033[0m"
 echo "\033[0;34mfeel free to fork it :)\033[0m"
 echo "\033[0;34m<Eddie Kao> eddie@5xcampus.com\033[0m"
 echo ""

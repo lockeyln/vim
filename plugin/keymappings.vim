@@ -25,14 +25,14 @@ noremap <C-k> 5k
 " 强制退出
 map Q :q<CR>
 
-" 设置Alt+HJKL为insert模式移动光标
+" 设置Ctrl+HJKL为insert模式移动光标
 inoremap jj <Esc>
-inoremap <h> <Left>
-inoremap <j> <Down>
-inoremap <k> <Up>
-inoremap <l> <Right>
-inoremap <c-a> <Home>
-inoremap <c-e> <End>
+inoremap <C-h> <Left>
+inoremap <C-j> <Down>
+inoremap <C-k> <Up>
+inoremap <C-l> <Right>
+inoremap <C-a> <Home>
+inoremap <C-e> <End>
 inoremap <C-d> <Delete>
 
 

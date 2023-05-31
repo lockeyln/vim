@@ -15,8 +15,8 @@
 
 ## 快捷鍵設定
 
-- <leader>1 啟動/關閉 NERDTree 視窗
-- <leader>2 啟動/關閉 Tagbar 視窗
+- \<leader\>1 啟動/關閉 NERDTree 視窗
+- \<leader\>2 啟動/關閉 Tagbar 視窗
 - F5 執行程式（Ruby / JavaScript / Python）
 - Leader key = ` `
 

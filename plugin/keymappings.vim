@@ -27,10 +27,10 @@ map Q :q<CR>
 
 " 设置Alt+HJKL为insert模式移动光标
 inoremap jj <Esc>
-inoremap <Esc>h <Left>
-inoremap <Esc>j <Down>
-inoremap <Esc>k <Up>
-inoremap <Esc>l <Right>
+inoremap h <Left>
+inoremap j <Down>
+inoremap k <Up>
+inoremap l <Right>
 inoremap <C-a> <Home>
 inoremap <C-e> <End>
 inoremap <C-d> <Delete>

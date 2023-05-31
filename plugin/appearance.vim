@@ -56,3 +56,5 @@ set noerrorbells
 set t_vb=
 set tm=500
 
+"修复SnipMate-deprecate启动错误
+let g:snipMate = { 'snippet_version' : 1 }
